@@ -98,13 +98,28 @@ function getCurrentPlayer(){
 
 function generateAccessCode(){
   var code = "";
-  var possible = "abcdefghijklmnopqrstuvwxyz";
 
-    for(var i=0; i < 6; i++){
-      code += possible.charAt(Math.floor(Math.random() * possible.length));
-    }
+  words = [
+    "belt",
+    "blouse",
+    "boot",
+    "hat",
+    "jacket",
+    "pant",
+    "pocket",
+    "scarf",
+    "shirt",
+    "sleeve",
+    "sock",
+    "trouser",
+    "vest",
+  ];
 
-    return code;
+  code = words[Math.floor(Math.random() * words.length)];
+  code += "-";
+  code += words[Math.floor(Math.random() * words.length)];
+
+  return code;
 }
 
 function generateNewGame(){
