@@ -334,5 +334,19 @@ locations = [
       'locations.roles.world war ii squad.imprisoned nazi',
       'locations.roles.world war ii squad.soldier'
     ]
+  },
+  {
+    name: 'locations.1201 dean street',
+    roles: [
+      'locations.roles.1201 dean street.aryn',
+      'locations.roles.1201 dean street.chris',
+      'locations.roles.1201 dean street.eve',
+      'locations.roles.1201 dean street.joe',
+      'locations.roles.1201 dean street.john',
+      'locations.roles.1201 dean street.josh',
+      'locations.roles.1201 dean street.kyle',
+      'locations.roles.1201 dean street.luke',
+      'locations.roles.1201 dean street.nick'
+    ]
   }
 ];
