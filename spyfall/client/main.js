@@ -553,12 +553,18 @@ Template.gameView.events({
     event.currentTarget.className = 'player-name-striked';
   },
   'click .player-name-striked': function(event) {
+    event.currentTarget.className = 'player-name-highlighted';
+  },
+  'click .player-name-highlighted': function(event) {
     event.currentTarget.className = 'player-name';
   },
   'click .location-name': function (event) {
     event.target.className = 'location-name-striked';
   },
   'click .location-name-striked': function(event) {
+    event.target.className = 'location-name-highlighted';
+  },
+  'click .location-name-highlighted': function(event) {
     event.target.className = 'location-name';
   }
 });
