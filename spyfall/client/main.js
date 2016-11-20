@@ -100,17 +100,25 @@ function generateAccessCode(){
   var code = "";
 
   words = [
+    "ball",
     "belt",
     "blouse",
     "boot",
+    "camp",
+    "club",
+    "day",
     "hat",
+    "house",
     "jacket",
     "pant",
+    "plant",
     "pocket",
     "scarf",
     "shirt",
     "sleeve",
     "sock",
+    "space",
+    "town",
     "trouser",
     "vest",
   ];
